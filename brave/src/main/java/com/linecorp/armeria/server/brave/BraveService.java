@@ -82,6 +82,7 @@ public final class BraveService extends SimpleDecoratingHttpService {
 
     /**
      * Creates a new instance.
+     *
      */
     private BraveService(HttpService delegate, HttpTracing httpTracing) {
         super(delegate);
